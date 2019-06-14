@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/aa886ae2-93d8-4315-bbde-c1c9d085413d/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/tim-manley",
+    "appService.deploySubpath": "mysite"
+}
