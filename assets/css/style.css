@@ -1,0 +1,49 @@
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar a {
+    color: #f8f9fa;
+}
+
+.blur-container {
+    position: relative;
+    height: 100vh;
+}
+
+.name {
+    font-size: 65px;
+    font-weight: 500;
+    top: 300px;
+    margin-left: 4%; 
+    position: relative;
+    width: 5vw;
+}
+
+.bg-img {
+    position: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.blur {
+    opacity: 0;
+}
+
+/* Use this to pad the h2s for auto scroll behaviour */
+h2::before {
+    content: "";
+}
+
+.svg-img {
+    height: 25px;
+    width: 25px;
+}
